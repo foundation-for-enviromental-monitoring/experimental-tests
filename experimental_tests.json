@@ -74,7 +74,9 @@
           "unit": "mg/l",
           "timeDelay": 180
         }
-       {
+       ]
+    },
+        {
       "name": "Aluminum",
       "subtype": "cuvette",
       "uuid": "39e753f3-efc6-45c7-ba49-7e2cb8d16d6f",
@@ -87,7 +89,7 @@
         {
           "id": 1,
           "name": "Aluminum",
-          "unit": "ppm",
+          "unit": "ppm"
         }
       ]
     },
