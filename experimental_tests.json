@@ -2,9 +2,10 @@
   "tests": [
     {
       "name": "RGB Data",
+      "type": "water",
       "subtype": "cuvette",
       "uuid": "5aedcb21-5cfd-4ae1-9b7d-ed94c716b20a",
-      "brand": "FFEM",
+      "brand": "Caddisfly",
       "calibrate": true,
       "ranges": "1,2,3",
       "hasImage": true,
@@ -20,9 +21,10 @@
     },
     {
       "name": "Backdrop Data",
+      "type": "water",
       "subtype": "cuvette",
       "uuid": "5142044d-e440-49cb-b494-9c83ebb2724e",
-      "brand": "FFEM",
+      "brand": "Caddisfly",
       "calibrate": true,
       "ranges": "0,.5,1,1.5,2",
       "hasImage": true,
@@ -38,9 +40,10 @@
     },
     {
       "name": "Soil - Available Boron",
+      "type": "soil",
       "subtype": "cuvette",
       "uuid": "299ec001-f6ea-45ed-9db2-596d5e5d5f25",
-      "brand": "FFEM",
+      "brand": "Caddisfly",
       "calibrate": true,
       "ranges": "0,0.25,0.5,1,1.5,2",
       "monthsValid": 12,
@@ -58,9 +61,10 @@
     },
     {
       "name": "Soil - Available Iron",
+      "type": "soil",
       "subtype": "cuvette",
       "uuid": "08c774fe-ca2a-4dba-b039-a9a7eb17a8e2",
-      "brand": "FFEM",
+      "brand": "Caddisfly",
       "calibrate": true,
       "ranges": "0,0.5,1,1.5,2,2.5,3",
       "monthsValid": 12,
@@ -76,11 +80,13 @@
         }
        ]
     },
-        {
+    {
       "name": "Aluminum",
+      "type": "water",
       "subtype": "cuvette",
       "uuid": "39e753f3-efc6-45c7-ba49-7e2cb8d16d6f",
-      "brand": "FFEM",
+      "brand": "Caddisfly",
+      "imageScale": "centerCrop",
       "calibrate": true,
       "ranges": "0,0.1,0.2,0.3",
       "monthsValid": 12,
@@ -89,16 +95,17 @@
         {
           "id": 1,
           "name": "Aluminum",
-          "unit": "ppm"
+          "unit": "mg/l"
         }
       ]
     },
     {
       "name": "Fluoride (Camera Above)",
+      "type": "water",
       "subtype": "cuvette",
       "cameraAbove": true,
       "uuid": "4bbf3c2b-2b2a-4b52-95a0-f04b5c8089e9",
-      "brand": "FFEM",
+      "brand": "Caddisfly",
       "calibrate": true,
       "dilutions": [1,2,5],
       "monthsValid": 12,
@@ -107,7 +114,7 @@
         {
           "name": "Fluoride",
           "id": 1,
-          "unit": "ppm",
+          "unit": "mg/l",
           "colors": [
             {
               "value": 0
@@ -130,11 +137,12 @@
     },
     {
       "name": "Fluoride (Round container)",
+      "type": "water",
       "description": "",
       "subtype": "striptest",
       "uuid": "6993695a-d412-4cf8-9776-e5daeb6ff5f8",
       "calibration": "",
-      "brand": "FFEM",
+      "brand": "Caddisfly",
       "groupingType": "INDIVIDUAL",
       "length": 25,
       "height": 18,
