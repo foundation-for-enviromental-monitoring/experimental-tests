@@ -1406,6 +1406,327 @@
       ]
     },
     {
+      "name": "AC 20180803_FRef_ME4",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "a5001210-80a6-4b0c-ae50-8955d45f1482",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,0.5,1,1.5,2",
+      "monthsValid": 12,
+      "dilutions": [
+        1,
+        2,
+        5
+      ],
+      "instructions": [
+        {
+          "section": [
+            "bc_rinse",
+            "image:bc_rinse"
+          ]
+        },
+        {
+          "section": [
+            "bc_fill",
+            "image:bc_fill"
+          ]
+        },
+        {
+          "section": [
+            "bc_add_capsule",
+            "image:bc_add_capsule"
+          ]
+        },
+        {
+          "section": [
+            "bc_screw",
+            "image:bc_screw"
+          ]
+        },
+        {
+          "section": [
+            "bc_shake",
+            "image:bc_shake"
+          ]
+        },
+        {
+          "section": [
+            "bc_wipe_bottom",
+            "image:bc_wipe_bottom"
+          ]
+        },
+        {
+          "section": [
+            "bc_wipe_camera",
+            "image:bc_wipe_camera"
+          ]
+        },
+        {
+          "section": [
+            "bc_place_chamber",
+            "image:bc_place_chamber"
+          ]
+        },
+        {
+          "section": [
+            "bc_select_dilution",
+            "image:bc_select_dilution"
+          ]
+        },
+        {
+          "section": [
+            "bc_place_phone",
+            "image:bc_place_phone"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Fluoride",
+          "unit": "mg/l",
+          "preset": [
+            {
+              "value": 0,
+              "rgb": [194,18,95]
+            },
+            {
+              "value": 0.5,
+              "rgb": [168,31,55]
+            },
+            {
+              "value": 1,
+              "rgb": [172,55,40]
+            },
+            {
+              "value": 1.5,
+              "rgb": [136,73,27]
+            },
+            {
+              "value": 2,
+              "rgb": [146,89,30]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AC 20180727_FRef_MGP",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "c287370c-91d1-4325-b427-307e1f0dc233",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,0.5,1,1.5,2",
+      "monthsValid": 12,
+      "dilutions": [
+        1,
+        2,
+        5
+      ],
+      "instructions": [
+        {
+          "section": [
+            "bc_rinse",
+            "image:bc_rinse"
+          ]
+        },
+        {
+          "section": [
+            "bc_fill",
+            "image:bc_fill"
+          ]
+        },
+        {
+          "section": [
+            "bc_add_capsule",
+            "image:bc_add_capsule"
+          ]
+        },
+        {
+          "section": [
+            "bc_screw",
+            "image:bc_screw"
+          ]
+        },
+        {
+          "section": [
+            "bc_shake",
+            "image:bc_shake"
+          ]
+        },
+        {
+          "section": [
+            "bc_wipe_bottom",
+            "image:bc_wipe_bottom"
+          ]
+        },
+        {
+          "section": [
+            "bc_wipe_camera",
+            "image:bc_wipe_camera"
+          ]
+        },
+        {
+          "section": [
+            "bc_place_chamber",
+            "image:bc_place_chamber"
+          ]
+        },
+        {
+          "section": [
+            "bc_select_dilution",
+            "image:bc_select_dilution"
+          ]
+        },
+        {
+          "section": [
+            "bc_place_phone",
+            "image:bc_place_phone"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Fluoride",
+          "unit": "mg/l",
+          "preset": [
+            {
+              "value": 0,
+              "rgb": [243,71,173]
+            },
+            {
+              "value": 0.5,
+              "rgb": [239,81,132]
+            },
+            {
+              "value": 1,
+              "rgb": [237,109,87]
+            },
+            {
+              "value": 1.5,
+              "rgb": [227,117,30]
+            },
+            {
+              "value": 2,
+              "rgb": [234,143,0]
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "name": "AC 20180727_FRef_AZC",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "a6a9b4e6-a33a-482f-82a7-3a851c469369",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,0.5,1,1.5,2",
+      "monthsValid": 12,
+      "dilutions": [
+        1,
+        2,
+        5
+      ],
+      "instructions": [
+        {
+          "section": [
+            "bc_rinse",
+            "image:bc_rinse"
+          ]
+        },
+        {
+          "section": [
+            "bc_fill",
+            "image:bc_fill"
+          ]
+        },
+        {
+          "section": [
+            "bc_add_capsule",
+            "image:bc_add_capsule"
+          ]
+        },
+        {
+          "section": [
+            "bc_screw",
+            "image:bc_screw"
+          ]
+        },
+        {
+          "section": [
+            "bc_shake",
+            "image:bc_shake"
+          ]
+        },
+        {
+          "section": [
+            "bc_wipe_bottom",
+            "image:bc_wipe_bottom"
+          ]
+        },
+        {
+          "section": [
+            "bc_wipe_camera",
+            "image:bc_wipe_camera"
+          ]
+        },
+        {
+          "section": [
+            "bc_place_chamber",
+            "image:bc_place_chamber"
+          ]
+        },
+        {
+          "section": [
+            "bc_select_dilution",
+            "image:bc_select_dilution"
+          ]
+        },
+        {
+          "section": [
+            "bc_place_phone",
+            "image:bc_place_phone"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Fluoride",
+          "unit": "mg/l",
+          "preset": [
+            {
+              "value": 0,
+              "rgb": [235,38,125]
+            },
+            {
+              "value": 0.5,
+              "rgb": [197,31,61]
+            },
+            {
+              "value": 1,
+              "rgb": [195,51,42]
+            },
+            {
+              "value": 1.5,
+              "rgb": [184,60,25]
+            },
+            {
+              "value": 2,
+              "rgb": [176,70,31]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hydrogen Peroxide",
       "type": "water",
       "subtype": "cuvette",
