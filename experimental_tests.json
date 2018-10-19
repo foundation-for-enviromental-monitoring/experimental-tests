@@ -52,7 +52,7 @@
       "name": "Available Nitrogen",
       "type": "soil",
       "subtype": "cuvette",
-      "uuid": "8e7badf4-3c7e-4c45-9cb2-0810ffaa8c26",
+      "uuid": "32c6ba6b-3f10-4831-b67a-70350bea684b",
       "image": "ffem",
       "imageScale": "centerCrop",
       "calibrate": true,
