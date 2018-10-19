@@ -47,6 +47,75 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Available Nitrogen",
+      "type": "soil",
+      "subtype": "cuvette",
+      "uuid": "8e7badf4-3c7e-4c45-9cb2-0810ffaa8c26",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,5,10,20,30,40",
+      "monthsValid": 6,
+      "dilutions": [
+        1,
+        2,
+        5,
+        -1
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Available Nitrogen",
+          "unit": "mg/kg",
+          "timeDelay": 300,
+          "formula": "(%1$f * 5)"
+        }
+      ]
+    },
+    {
+      "name": "Copper",
+      "type": "soil",
+      "subtype": "cuvette",
+      "uuid": "4ae79049-8b6a-4230-b2b9-b3882ddfb68c",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": " 0,0.2,0.4,0.6,0.8,1.0",
+      "monthsValid": 12,
+      "dilutions": [
+        1,
+        2,
+        5
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Copper",
+          "unit": "mg/kg",
+          "formula": "(%1$f * 5)"
+        }
+      ]
+    },
+     {
+      "name": "Organic Carbon",
+      "type": "soil",
+      "subtype": "cuvette",
+      "uuid": "1830c0f7-b31e-4093-8b50-e804cb209ae8",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,0.25,0.5,0.75,1.0",
+      "monthsValid": 6,
+      "results": [
+        {
+          "id": 1,
+          "name": "Organic Carbon",
+          "unit": "%",
+          "formula": "(%1$f / 2.5)"
+        }
+      ]
     }
   ]
 }
