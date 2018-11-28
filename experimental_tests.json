@@ -92,6 +92,24 @@
       ]
     },
     {
+      "name": "Organophosphate",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "e3cc318d-c50a-4581-8d20-50a1b5c1c85c",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,0.25,0.50,0.75,1",
+      "monthsValid": 6,
+      "results": [
+        {
+          "id": 1,
+          "name": "Organophosphate",
+          "timeDelay": 30
+        }
+      ]
+    },
+    {
       "name": "Available Nitrogen",
       "type": "soil",
       "subtype": "cuvette",
