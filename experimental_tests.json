@@ -87,6 +87,7 @@
         {
           "id": 1,
           "name": "Chlorophyll A",
+          "unit": "mg/l",
           "timeDelay": 30
         }
       ]
@@ -105,6 +106,7 @@
         {
           "id": 1,
           "name": "Organophosphate",
+          "unit": "mg/l",
           "timeDelay": 30
         }
       ]
