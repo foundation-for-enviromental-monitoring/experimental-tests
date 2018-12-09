@@ -84,11 +84,13 @@
       "calibrate": true,
       "ranges": "0,6",
       "monthsValid": 12,
+      "hasImage": true,
       "results": [
         {
           "id": 1,
           "name": "Dissolved Oxygen",
-          "unit": "mg/l"
+          "unit": "mg/l"          
+          "timeDelay": 0
         }
       ]
     }, 
