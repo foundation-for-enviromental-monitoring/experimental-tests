@@ -40,6 +40,25 @@
         }
       ]
     },
+      {
+      "name": "Blood Sugar",
+      "subtype": "cuvette",
+      "uuid": "f0262ede-5e91-4d65-9e0b-f51cae947294",
+      "brand": "FFEM",
+      "calibrate": true,
+      "ranges": "100,400",
+      "dilutions": [1,2,5],
+      "monthsValid": 12,
+      "hasImage": true,
+      "results": [
+        {
+          "name": "Blood sugar",
+          "id": 1,
+          "unit": "mg/dl",
+          "timeDelay": 0
+        }
+      ]
+    },
     {
       "name": "Water - Fluoride",
       "subtype": "cuvette",
