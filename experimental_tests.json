@@ -1,5 +1,24 @@
 {
   "tests": [
+      {
+      "name": "Blood Sugar",
+      "subtype": "cuvette",
+      "uuid": "0a8a3f59-358f-4bb2-a2ea-e920ea13a6f2",
+      "brand": "FFEM",
+      "calibrate": true,
+      "ranges": "100,200,300,600",
+      "dilutions": [1,2,5],
+      "monthsValid": 12,
+      "hasImage": true,
+      "results": [
+        {
+          "name": "Blood sugar",
+          "id": 1,
+          "unit": "mg/dl",
+          "timeDelay": 0
+        }
+      ]
+    },
     {
       "name": "RGB Data",
       "type": "water",
