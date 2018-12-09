@@ -8,7 +8,7 @@
       "brand": "FFEM",
       "calibrate": true,
       "ranges": "100,200,300,600",
-      "dilutions": "1,2,5",
+      "dilutions": [1,2,5],
       "monthsValid": 12,
       "hasImage": true,
       "results": [
