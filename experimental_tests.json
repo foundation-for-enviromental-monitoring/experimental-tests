@@ -94,23 +94,26 @@
     }, 
     {
       "name": "Blood Sugar",
+      "type": "water",
       "subtype": "cuvette",
       "uuid": "f0262ede-5e91-4d65-9e0b-f51cae947294",
+      "image": "ffem",
+      "imageScale": "centerCrop",
       "brand": "FFEM",
       "calibrate": true,
       "ranges": "100,400",
-      "dilutions": [1,2,5],
       "monthsValid": 12,
       "hasImage": true,
       "results": [
         {
-          "name": "Blood Sugar",
           "id": 1,
+          "name": "Blood Sugar",
           "unit": "mg/dl",
           "timeDelay": 0
         }
       ]
     },
+    
     {
       "name": "Chlorophyll A",
       "type": "water",
