@@ -141,7 +141,7 @@
       "image": "ffem",
       "imageScale": "centerCrop",
       "calibrate": true,
-      "ranges": "0,1,2,3,4,5",
+      "ranges": "0,0.01,0.025,0.050,0.1",
       "monthsValid": 6,
       "results": [
         {
