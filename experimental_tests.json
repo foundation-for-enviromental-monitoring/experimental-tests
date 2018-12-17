@@ -93,6 +93,27 @@
         }
       ]
     }, 
+      {
+      "name": "FLuoride High Range",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "21febd8d-f381-476b-83cc-9d6bb3b03b2c",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "brand": "FFEM",
+      "calibrate": true,
+      "ranges": "0,2,4,6,8",
+      "monthsValid": 12,
+      "hasImage": true,
+      "results": [
+        {
+          "id": 1,
+          "name": "Blood Sugar",
+          "unit": "mg/l",
+          "timeDelay": 0
+        }
+      ]
+    },
     {
       "name": "Blood Sugar",
       "type": "water",
