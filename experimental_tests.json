@@ -265,7 +265,7 @@
           "id": 1,
           "name": "Organic Carbon",
           "unit": "%",
-          "formula": "(%1$f / 2.5)"
+          "formula": "(%1$f / 1)"
         }
       ]
     }
