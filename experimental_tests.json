@@ -123,7 +123,7 @@
       "imageScale": "centerCrop",
       "brand": "FFEM",
       "calibrate": true,
-      "ranges": "100,400",
+      "ranges": "0,50,100,200,300,400,500,600",
       "monthsValid": 12,
       "hasImage": true,
       "results": [
