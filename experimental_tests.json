@@ -283,7 +283,7 @@
         {
           "id": 1,
           "name": "Manganese",
-          "unit": "mg/l",
+          "unit": "mg/l"
           }
       ]
     }
