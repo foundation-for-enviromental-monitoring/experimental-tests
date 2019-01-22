@@ -174,6 +174,25 @@
       ]
     },
     {
+      "name": "Zinc",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "aa19b9fc-2ab4-44cf-8b4f-3e455006c273",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0.5,1,2,3,4,5",
+      "monthsValid": 6,
+      "results": [
+        {
+          "id": 1,
+          "name": "Zinc",
+          "unit": "mg/l",
+          "timeDelay": 180
+        }
+      ]
+    },
+    {
       "name": "Available Nitrogen",
       "type": "soil",
       "subtype": "cuvette",
