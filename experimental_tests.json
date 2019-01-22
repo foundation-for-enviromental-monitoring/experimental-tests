@@ -175,7 +175,7 @@
     },
     {
       "name": "Zinc",
-      "type": "water",
+      "type": "soil",
       "subtype": "cuvette",
       "uuid": "aa19b9fc-2ab4-44cf-8b4f-3e455006c273",
       "image": "ffem",
