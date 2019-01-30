@@ -313,7 +313,7 @@
       "uuid": "769ff21d-14d2-4092-a82d-1295c555157c",
       "brand": "FFEM",
       "calibrate": true,
-      "ranges": "0,0.3,0.6,0.9,1.2,1.5",
+      "ranges": "0,5,10,15",
       "monthsValid": 12,
       "hasImage": true,
       "instructions": [
