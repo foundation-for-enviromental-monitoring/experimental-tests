@@ -322,7 +322,7 @@
         {
           "id": 1,
           "name": "Available Sulphate",
-          "unit": "mg/l",
+          "unit": "mg/l"
         }
       ]
     }
