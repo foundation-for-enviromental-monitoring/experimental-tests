@@ -246,7 +246,7 @@
       ]
     },
     {
-      "name": "Available Potassium 5X",
+      "name": "Available Potassium 5XGS",
       "type": "soil",
       "subtype": "cuvette",
       "uuid": "fa63fbea-9118-4aef-8b7d-2393cb472f44",
@@ -264,11 +264,38 @@
       "results": [
         {
           "id": 1,
-          "name": "Available Potassium 5X",
+          "name": "Available Potassium 5XGS",
           "unit": "mg/l",
           "timeDelay": 300,
           "formula": "(%1$f * 5)",
           "grayScale": true
+        }
+      ]
+    },
+    {
+      "name": "Available Potassium 5XC",
+      "type": "soil",
+      "subtype": "cuvette",
+      "uuid": "fa63fbea-9118-4aef-8b7d-2393cb472f44",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,25,50,100",
+      "monthsValid": 6,
+      "dilutions": [
+        1,
+        2,
+        5,
+        -1
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Available Potassium 5XC",
+          "unit": "mg/l",
+          "timeDelay": 300,
+          "formula": "(%1$f * 5)",
+          "grayScale": false
         }
       ]
     },
