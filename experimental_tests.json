@@ -294,7 +294,7 @@
           "name": "Available Potassium 5XC",
           "unit": "mg/l",
           "timeDelay": 300,
-          "formula": "(%1$f * 5)",
+          "formula": "(%1$f * 5)"
         }
       ]
     },
