@@ -273,6 +273,32 @@
       ]
     },
     {
+      "name": "Available Potassium 5XC",
+      "type": "soil",
+      "subtype": "cuvette",
+      "uuid": "312b4cb2-2b8a-4deb-b778-8b937def3bf3",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,25,50,100",
+      "monthsValid": 6,
+      "dilutions": [
+        1,
+        2,
+        5,
+        -1
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Available Potassium 5XC",
+          "unit": "mg/l",
+          "timeDelay": 300,
+          "formula": "(%1$f * 5)",
+        }
+      ]
+    },
+    {
       "name": "Copper",
       "type": "soil",
       "subtype": "cuvette",
