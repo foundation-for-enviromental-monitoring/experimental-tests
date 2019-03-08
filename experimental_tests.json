@@ -45,7 +45,7 @@
       ]
     },
     {
-      "name": "Automatic Calibration",
+      "name": "Flouride (Automatic Calibration)",
       "type": "water",
       "subtype": "cuvette",
       "uuid": "dfb4e66c-5daa-463e-9c6b-8d73f113f553",
@@ -62,13 +62,100 @@
       "results": [
         {
           "id": 1,
-          "name": "Fluoride",
+          "name": "Flouride (Automatic Calibration)",
           "unit": "mg/l",
           "references": [
-            "980f4a,901c36,861315,742309,672300,WKS_ME4",
-            "ff56d0,ff68b1,f26f74,ed7c5c,e38641,WKS_RedmiQShala",
-            "fd50a9,f75f92,ea6756,e77c43,e18629,WKS_SamsungJ5",
-            "9d2b4a,9a353f,8d3b23,874721,804912,WKS_KarbonK9"
+            "712f05,91380e,7d1f17,85112b,760a36,Redmi Y2",
+						"d32400,c61300,d60024,d70043,dc006c,Neo Power",
+						"a8650a,a4560e,8d3b23,b6383f,b9305a,K9 Smart Eco",
+						"ff3064,ff3f47,fd5224,f05f0c,e35c00,Moto G (4)",
+						"560018,4e0109,460500,561400,4e2000,XT1706",
+						"f144b3,e93d74,e74e36,e1600c,d86600,Moto G Play",
+						"f731ad,f03979,f66856,f07f3d,ee9132,SM-G550FY",
+						"ce0c69,cf1b4c,cc3030,cb481c,c14e10,ONEPLUS A6010",
+						"620a43,620f30,5c151d,5d2118,5b2b16,Lenovo K8 Plus",
+						"d819a7,e83f92,fc5d5e,fa7c2c,e37a00,Moto G (5S)",
+						"b60f57,a31b33,ad2c23,972f1e,7b3800,Moto E (4) Plus",
+						"fc549a,f4545c,ea6225,e87e0f,e28800,SM-G600FY",
+						"e91b86,eb295d,f35e48,ef7b31,e38223,SM-G550FY",
+						"e7339a,db3c67,cf5236,ca6716,bd6f06,XT1072",
+						"ea1c69,ff2a5b,fd302e,ff451b,c73d13,ASUS_Z007",
+						"f02071,f02747,ed332a,d03d14,bf461b,ASUS_Z007",
+						"cd196f,d22558,cb2e31,ba3218,ec6133,ASUS_Z007",
+						"cd196f,d22558,cb2e31,ba3218,ec6133,ASUS_Z007"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Phosphorus (Automatic Calibration)",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "ad32fc15-6bbb-480a-ad54-f193b87bdc64",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,0.5,1,1.5,2",
+      "monthsValid": 12,
+      "dilutions": [
+        1,
+        2,
+        5
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Phosphorus (Automatic Calibration)",
+          "unit": "mg/l",
+          "references": [
+            "6a7847,4b7861,2a7a77,147b86,0186a0,0079a1,0072ae,XT1072",
+            "a1a46e,a4c3a7,7bc2af,59c1c0,3dc5d2,0abadb,00bbf2,SM-G550FY",
+            "9da552,7ba567,5baf8d,39b1a5,13b1b4,0094a5,00a1c6,SM-G600FY",
+            "5c5732,78a08b,2cb5b7,04b5d2,006aa2,00a5ff,0087ff,ASUS_Z007",
+            "73614f,57635a,21585d,03698d,00628b,006bab,0058ac,ASUS_Z007",
+            "685745,4b554d,296265,0a6688,036588,00629c,005cb0,ASUS_Z007",
+            "7d6d41,567e5f,438173,018993,007485,007a98,0071bc,ASUS_Z007"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Total Iron (Automatic Calibration)",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "66d98e47-4feb-404b-8a0b-b3c978436247",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,0.5,1,1.5,2",
+      "monthsValid": 12,
+      "dilutions": [
+        1,
+        2,
+        5
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Total Iron (Automatic Calibration)",
+          "unit": "mg/l",
+          "references": [
+            "b37522,b1711a,c56c05,e16000,d96200,Moto G (4)",
+						"767b1c,6b6f0f,6a5400,854601,a75c00,K9 Smart Eco",
+						"b0a377,aea57c,c89e56,f48f00,f68600,Moto G (5S)",
+						"6c6862,7c5a35,834011,7d3500,973500,Moto E (4) Plus",
+						"4c4d42,453412,391600,521b00,4c1200,XT1706",
+						"97582d,994f2d,b14514,b63d10,af3412,Redmi Y2",
+						"97582d,994f2d,b14514,b63d10,a05a29,Redmi Y2",
+						"6e7a52,847235,a97005,c77400,d77400,XT1072",
+						"afad7c,cdb068,df9b2e,e28404,f18d00,SM-G550FY",
+						"b0b163,b79a34,de9c07,e18500,e47d00,SM-G600FY",
+						"645839,b38360,f2723c,af3208,fc450b,ASUS_Z007",
+						"9c9e55,b99023,dda51a,c5921c,ca8e0d,SM-G600FY",
+						"998b69,9b6040,8b4827,904d2c,b16b47,ASUS_Z007",
+						"6b5a4b,854526,993e19,a62f07,c63d0e,ASUS_Z007",
+						"685645,7c472b,a63e16,ae3308,c13305,ASUS_Z007",
+						"836f46,aa6039,bc5326,c54213,ed5018,ASUS_Z007"
           ]
         }
       ]
