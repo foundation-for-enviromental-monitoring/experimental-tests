@@ -89,14 +89,14 @@
     },
 	
 	   {
-      "name": "Phosphorus Automatic Calibration)",
+      "name": "Phosphate Automatic Calibration)",
       "type": "water",
       "subtype": "cuvette",
       "uuid": "c888f9cd-f6ec-4658-bda9-5e474c36da60",
       "image": "ffem",
       "imageScale": "centerCrop",
       "calibrate": true,
-      "ranges": "0,0.5,1,1.5,2",
+      "ranges": "0,0.3,0.6,0.9,1.2,1.5,2.0",
       "monthsValid": 12,
       "dilutions": [
         1,
@@ -106,7 +106,7 @@
       "results": [
         {
           "id": 1,
-          "name": "Phosphorus (Automatic Calibration)",
+          "name": "Phosphate (Automatic Calibration)",
           "unit": "mg/l",
           "references": [
             "6a7847,4b7861,2a7a77,147b86,0186a0,0079a1,0072ae,XT1072",
