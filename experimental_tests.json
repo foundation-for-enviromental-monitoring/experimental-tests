@@ -408,7 +408,7 @@
             }]
         },
         {
-            "name": "Soil - Available Sulphate",
+            "name": "Available Sulphur",
             "type": "soil",
             "subtype": "cuvette",
             "uuid": "769ff21d-14d2-4092-a82d-1295c555157c",
@@ -420,7 +420,7 @@
             "instructions": [],
             "results": [{
                 "id": 1,
-                "name": "Available Sulphate",
+                "name": "Available Sulphur",
                 "unit": "mg/l",
                 "formula": "(%1$f * 5)"
             }]
