@@ -421,7 +421,8 @@
             "results": [{
                 "id": 1,
                 "name": "Available Sulphate",
-                "unit": "mg/l"
+                "unit": "mg/l",
+                "formula": "(%1$f * 5)"
             }]
         }
     ]
