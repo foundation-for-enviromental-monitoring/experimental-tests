@@ -282,38 +282,14 @@
             }]
         },
         {
-            "name": "Available Potassium (Edited)",
-            "type": "soil",
-            "subtype": "cuvette",
-            "uuid": "ba8aff48-3d8b-4ded-9e89-54af538cd025",
-            "image": "ffem",
-            "imageScale": "centerCrop",
-            "calibrate": true,
-            "ranges": "0,10,20,40",
-            "monthsValid": 6,
-            "dilutions": [
-                1,
-                2,
-                5, -1
-            ],
-            "results": [{
-                "id": 1,
-                "name": "Available Potassium",
-                "unit": "mg/l",
-                "timeDelay": 300,
-                "formula": "(%1$f * 5)",
-                "grayScale": true
-            }]
-        },
-        {
-            "name": "Available Potassium 5XGS",
+            "name": "Available Potassium 5XC 5P",
             "type": "soil",
             "subtype": "cuvette",
             "uuid": "fa63fbea-9118-4aef-8b7d-2393cb472f44",
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": "0,25,50,100",
+            "ranges": "0,10,20,30,40",
             "monthsValid": 6,
             "dilutions": [
                 1,
@@ -322,11 +298,11 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "Available Potassium 5XGS",
+                "name": "Available Potassium 5XC 5P",
                 "unit": "mg/l",
                 "timeDelay": 300,
-                "formula": "(%1$f * 5)",
-                "grayScale": true
+                "formula": "(%1$f * 1)",
+                "grayScale": false
             }]
         },
         {
