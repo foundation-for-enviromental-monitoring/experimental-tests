@@ -300,6 +300,29 @@
             }]
         },
         {
+            "name": "Demo Nitrogen",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "a2146fab-8354-4f32-b51b-54f302d49653",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,2,4,6,8",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5, -1
+            ],
+            "results": [{
+                "id": 1,
+                "name": "Demo Nitrogen",
+                "unit": "mg/kg",
+                "timeDelay": 300,
+                "formula": "(%1$f * 25)"
+            }]
+        },
+        {
             "name": "Available Potassium 5XC 5P",
             "type": "soil",
             "subtype": "cuvette",
@@ -324,14 +347,14 @@
             }]
         },
         {
-            "name": "Available Potassium 5XC",
+            "name": "Demo Potassium",
             "type": "soil",
             "subtype": "cuvette",
             "uuid": "312b4cb2-2b8a-4deb-b778-8b937def3bf3",
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": "0,25,50,100",
+            "ranges": "0,8,16,24,32",
             "monthsValid": 6,
             "dilutions": [
                 1,
@@ -340,10 +363,10 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "Available Potassium 5XC",
+                "name": "Demo Potassium",
                 "unit": "mg/l",
                 "timeDelay": 300,
-                "formula": "(%1$f * 5)"
+                "formula": "(%1$f * 12.5)"
             }]
         },
         {
