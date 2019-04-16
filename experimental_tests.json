@@ -1,5 +1,23 @@
 {
-    "tests": [{
+    "tests": [
+        {
+            "name": "Fluoride (Above)",
+            "type": "water",
+            "subtype": "cuvette",
+            "uuid": "17586f44-c4a4-4a73-a9e6-0445a8955b50",
+            "brand": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,0.5,1,1.5,2",
+            "monthsValid": 12,
+            "cameraAbove": true,
+            "results": [{
+                "id": 1,
+                "name": "Fluoride",
+                "unit": "mg/l"
+            }]
+       },
+       {
             "name": "RGB Data",
             "type": "water",
             "subtype": "cuvette",
