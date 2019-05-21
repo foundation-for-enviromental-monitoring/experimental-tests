@@ -319,7 +319,7 @@
                 "name": "Demo Nitrogen",
                 "unit": "mg/kg",
                 "timeDelay": 300,
-                "formula": "(%1$f * 25)"
+                "formula": "(%1$f * 1)"
             }]
         },
         {
@@ -366,7 +366,7 @@
                 "name": "Demo Potassium",
                 "unit": "mg/l",
                 "timeDelay": 300,
-                "formula": "(%1$f * 12.5)"
+                "formula": "(%1$f * 1)"
             }]
         },
         {
