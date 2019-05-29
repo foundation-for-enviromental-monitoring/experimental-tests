@@ -342,7 +342,7 @@
                 "name": "GIZ Potassium",
                 "unit": "mg/l",
                 "timeDelay": 300,
-                "formula": "(%1$f * 1)",
+                "formula": "(%1$f * 5)",
                 "grayScale": false
             }]
         },
