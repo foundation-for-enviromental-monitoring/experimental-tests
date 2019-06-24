@@ -242,6 +242,30 @@
                 "timeDelay": 30
             }]
         },
+         {
+      "name": "Arsenic",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "93c259c5-f8b5-4317-828b-adfa324a2918",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,0.05,0.1,0.3,0.5",
+      "monthsValid": 2,
+      "dilutions": [
+        1,
+        2,
+        5
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Arsenic (III)",
+          "unit": "mg/l",
+          "timeDelay": 600
+        }
+      ]
+    },
         {
             "name": "Organophosphate",
             "type": "water",
