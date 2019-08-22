@@ -372,7 +372,7 @@
         },
         {
             "name": "Potassium 2.0",
-            "type": "Water",
+            "type": "water",
             "subtype": "cuvette",
             "uuid": "4e0479e1-88a1-40ac-bb2b-099ca52af597",
             "image": "ffem",
@@ -387,7 +387,7 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "Potassium 2",
+                "name": "Potassium 2.0",
                 "unit": "mg/l",
                 "timeDelay": 300,
                 "formula": "(%1$f * 1)",
