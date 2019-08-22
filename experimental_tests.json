@@ -371,6 +371,30 @@
             }]
         },
         {
+            "name": "Potassium 2.0",
+            "type": "Water",
+            "subtype": "cuvette",
+            "uuid": "4e0479e1-88a1-40ac-bb2b-099ca52af597",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,10,20,30",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5, -1
+            ],
+            "results": [{
+                "id": 1,
+                "name": "GIZ Potassium",
+                "unit": "mg/l",
+                "timeDelay": 300,
+                "formula": "(%1$f * 1)",
+                "grayScale": false
+            }]
+        },
+        {
             "name": "Demo Potassium",
             "type": "soil",
             "subtype": "cuvette",
