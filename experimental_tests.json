@@ -387,7 +387,7 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "GIZ Potassium",
+                "name": "Potassium 2",
                 "unit": "mg/l",
                 "timeDelay": 300,
                 "formula": "(%1$f * 1)",
