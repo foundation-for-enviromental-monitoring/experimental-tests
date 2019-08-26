@@ -395,6 +395,77 @@
             }]
         },
         {
+            "name": "U5 Potassium",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "b74e3fd1-b5b8-431b-b88e-bb0f554ea7a1",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,10,20,30,40",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5, -1
+            ],
+            "results": [{
+                "id": 1,
+                "name": "U5 Potassium",
+                "unit": "mg/l",
+                "timeDelay": 300,
+                "formula": "(%1$f * 2.5)",
+                "grayScale": false
+            }]
+        },
+        {
+            "name": "U5 Nitrogen",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "ea4f5886-f531-4a57-91af-7f1918d7a987",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,10,20,30,40",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5, -1
+            ],
+            "results": [{
+                "id": 1,
+                "name": "U5 Nitrogen",
+                "unit": "mg/l",
+                "timeDelay": 300,
+                "formula": "(%1$f * 5)",
+                "grayScale": false
+            }]
+        },{
+            "name": "U5 Phosphorus",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "c01a3df5-0bfc-4417-8807-863152498cdc",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,5,10,15,20,25",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5, -1
+            ],
+            "results": [{
+                "id": 1,
+                "name": "U5 Phosphorus",
+                "unit": "mg/l",
+                "timeDelay": 300,
+                "formula": "(%1$f * 1)",
+                "grayScale": false
+            }]
+        },
+        {
             "name": "Demo Potassium",
             "type": "soil",
             "subtype": "cuvette",
