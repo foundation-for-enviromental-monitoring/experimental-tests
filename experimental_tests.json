@@ -402,7 +402,7 @@
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": "0,10,20,30,40",
+            "ranges": "0,20,40,60,80",
             "monthsValid": 6,
             "dilutions": [
                 1,
@@ -414,7 +414,7 @@
                 "name": "U5 Potassium",
                 "unit": "mg/l",
                 "timeDelay": 300,
-                "formula": "(%1$f * 2.5)",
+                "formula": "(%1$f * 1)",
                 "grayScale": false
             }]
         },
