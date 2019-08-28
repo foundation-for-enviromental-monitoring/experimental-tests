@@ -57,7 +57,7 @@
             }]
         },
         {
-            "name": "Flouride (Automatic Calibration)",
+            "name": "Flouride (One Step)",
             "type": "water",
             "subtype": "cuvette",
             "uuid": "dfb4e66c-5daa-463e-9c6b-8d73f113f553",
@@ -73,7 +73,7 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "Flouride (Automatic Calibration)",
+                "name": "Flouride (One Step)",
                 "unit": "mg/l",
                 "references": [
                     "712f05,91380e,7d1f17,85112b,760a36,Redmi Y2",
@@ -99,7 +99,7 @@
         },
 
         {
-            "name": "Phosphate Automatic Calibration)",
+            "name": "Phosphate One Step)",
             "type": "water",
             "subtype": "cuvette",
             "uuid": "c888f9cd-f6ec-4658-bda9-5e474c36da60",
@@ -115,7 +115,7 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "Phosphate (Automatic Calibration)",
+                "name": "Phosphate (One Step)",
                 "unit": "mg/l",
                 "references": [
                     "6a7847,4b7861,2a7a77,147b86,0186a0,0079a1,0072ae,XT1072",
@@ -131,7 +131,7 @@
         },
 
         {
-            "name": "Total Iron (Automatic Calibration)",
+            "name": "Total Iron (One Step)",
             "type": "water",
             "subtype": "cuvette",
             "uuid": "66d98e47-4feb-404b-8a0b-b3c978436247",
@@ -147,7 +147,7 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "Total Iron (Automatic Calibration)",
+                "name": "Total Iron (One Step)",
                 "unit": "mg/l",
                 "references": [
                     "b37522,b1711a,c56c05,e16000,d96200,Moto G (4)",
@@ -485,6 +485,29 @@
                 "name": "Demo Potassium",
                 "unit": "mg/l",
                 "timeDelay": 300,
+                "formula": "(%1$f * 1)"
+            }]
+        },
+        {
+            "name": "Alkalinity (Colorimetric)",
+            "type": "water",
+            "subtype": "cuvette",
+            "uuid": "222ca914-3036-4a2e-a59d-d85948d69461",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,50,100,150,200",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5, -1
+            ],
+            "results": [{
+                "id": 1,
+                "name": "Alkalinity (Colorimetric)",
+                "unit": "mg/l",
+                "timeDelay": 120,
                 "formula": "(%1$f * 1)"
             }]
         },
