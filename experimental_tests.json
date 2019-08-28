@@ -496,7 +496,7 @@
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": "0,50,100,150,200",
+            "ranges": "0,20,40,60,80",
             "monthsValid": 6,
             "dilutions": [
                 1,
