@@ -512,6 +512,29 @@
             }]
         },
         {
+            "name": "Ammonia",
+            "type": "water",
+            "subtype": "cuvette",
+            "uuid": "9cf6106a-8ae5-4044-8967-a34fa87ff140",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,1,2,3,4",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5, -1
+            ],
+            "results": [{
+                "id": 1,
+                "name": "Alkalinity (Colorimetric)",
+                "unit": "mg/l",
+                "timeDelay": 300,
+                "formula": "(%1$f * 1)"
+            }]
+        },
+        {
             "name": "Copper",
             "type": "soil",
             "subtype": "cuvette",
