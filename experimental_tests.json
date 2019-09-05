@@ -528,7 +528,7 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "Alkalinity (Colorimetric)",
+                "name": "Ammonia",
                 "unit": "mg/l",
                 "timeDelay": 300,
                 "formula": "(%1$f * 1)"
