@@ -390,7 +390,7 @@
           "name": "Copper",
           "unit": "mg/kg",
           "formula": "(%1$f * 5)"
-          "timeDelay": 300
+          "timeDelay": 300,
         }
       ]
     },
