@@ -371,6 +371,30 @@
             }]
         },
         {
+      "name": "Copper",
+      "type": "soil",
+      "subtype": "cuvette",
+      "uuid": "4ae79049-8b6a-4230-b2b9-b3882ddfb68c",
+      "image": "ffem",
+      "calibrate": true,
+      "ranges": " 0,0.2,0.4,0.6,0.8,1.0",
+      "monthsValid": 12,
+      "dilutions": [
+        1,
+        2,
+        5
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Copper",
+          "unit": "mg/kg",
+          "formula": "(%1$f * 5)"
+          "timeDelay": 300
+        }
+      ]
+    },
+        {
             "name": "Potassium 2.0",
             "type": "water",
             "subtype": "cuvette",
