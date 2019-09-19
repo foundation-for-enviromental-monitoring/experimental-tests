@@ -301,6 +301,23 @@
             }]
         },
         {
+            "name": "Zinc 2",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "31c6876f-280d-4f13-8f20-eb37d918b8a6",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0.1,0.5,1,2,3,5",
+            "monthsValid": 6,
+            "results": [{
+                "id": 1,
+                "name": "Zinc 2",
+                "unit": "mg/l",
+                "timeDelay": 300
+            }]
+        },
+        {
             "name": "Available Nitrogen",
             "type": "soil",
             "subtype": "cuvette",
