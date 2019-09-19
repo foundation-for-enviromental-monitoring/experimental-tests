@@ -301,23 +301,6 @@
             }]
         },
         {
-            "name": "Zinc 2",
-            "type": "soil",
-            "subtype": "cuvette",
-            "uuid": "31c6876f-280d-4f13-8f20-eb37d918b8a6",
-            "image": "ffem",
-            "imageScale": "centerCrop",
-            "calibrate": true,
-            "ranges": "0.1,0.5,1,2,3,5",
-            "monthsValid": 6,
-            "results": [{
-                "id": 1,
-                "name": "Zinc 2",
-                "unit": "mg/l",
-                "timeDelay": 300
-            }]
-        },
-        {
             "name": "Available Nitrogen",
             "type": "soil",
             "subtype": "cuvette",
@@ -600,14 +583,14 @@
             }]
         },
         {
-            "name": "Copper",
+            "name": "Trial: Zinc",
             "type": "soil",
             "subtype": "cuvette",
-            "uuid": "4ae79049-8b6a-4230-b2b9-b3882ddfb68c",
+            "uuid": "7f5ebb1a-3415-4dc9-85de-1b11e1e60c38",
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": " 0,0.2,0.4,0.6,0.8,1.0",
+            "ranges": "0.1, 0.5, 1, 2, 3, 5",
             "monthsValid": 12,
             "dilutions": [
                 1,
@@ -616,8 +599,9 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "Copper",
+                "name": "Trial: Zinc",
                 "unit": "mg/kg",
+                "timeDelay": 300,
                 "formula": "(%1$f * 5)"
             }]
         },
