@@ -671,7 +671,7 @@
                 "unit": "mg/l",
                 "formula": "(%1$f * 5)"
             }]
-        }
+        },
         {
       "name": "Zinc 3",
       "type": "soil",
