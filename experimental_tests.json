@@ -99,7 +99,7 @@
         },
 
         {
-            "name": "Phosphate One Step)",
+            "name": "Phosphate (One Step)",
             "type": "water",
             "subtype": "cuvette",
             "uuid": "c888f9cd-f6ec-4658-bda9-5e474c36da60",
@@ -262,6 +262,30 @@
           "id": 1,
           "name": "Arsenic (III)",
           "unit": "mg/l",
+          "timeDelay": 600
+        }
+      ]
+    },
+         {
+      "name": "Arsenic 2.0",
+      "type": "water",
+      "subtype": "cuvette",
+      "uuid": "8f0459f4-32f4-489b-a5a1-85a51ec8fc4a",
+      "image": "ffem",
+      "imageScale": "centerCrop",
+      "calibrate": true,
+      "ranges": "0,10,30,50,100,200,500",
+      "monthsValid": 6,
+      "dilutions": [
+        1,
+        2,
+        5
+      ],
+      "results": [
+        {
+          "id": 1,
+          "name": "Arsenic 2.0",
+          "unit": "ppb",
           "timeDelay": 600
         }
       ]
