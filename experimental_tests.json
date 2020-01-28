@@ -201,7 +201,7 @@
             "hasImage": true,
             "results": [{
                 "id": 1,
-                "name": "Blood Sugar",
+                "name": "Fluoride High Range",
                 "unit": "mg/l",
                 "timeDelay": 0
             }]
