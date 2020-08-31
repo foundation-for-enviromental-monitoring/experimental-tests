@@ -131,14 +131,14 @@
         },
 
         {
-            "name": "Total Iron (One Step)",
+            "name": "Iron",
             "type": "water",
             "subtype": "cuvette",
             "uuid": "66d98e47-4feb-404b-8a0b-b3c978436247",
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": "0,0.5,1,1.5,2",
+            "ranges": "0, 0.1, 0.2, 0.3, 0.4, 0.5",
             "monthsValid": 12,
             "dilutions": [
                 1,
@@ -147,26 +147,8 @@
             ],
             "results": [{
                 "id": 1,
-                "name": "Total Iron (One Step)",
-                "unit": "mg/l",
-                "references": [
-                    "b37522,b1711a,c56c05,e16000,d96200,Moto G (4)",
-                    "767b1c,6b6f0f,6a5400,854601,a75c00,K9 Smart Eco",
-                    "b0a377,aea57c,c89e56,f48f00,f68600,Moto G (5S)",
-                    "6c6862,7c5a35,834011,7d3500,973500,Moto E (4) Plus",
-                    "4c4d42,453412,391600,521b00,4c1200,XT1706",
-                    "97582d,994f2d,b14514,b63d10,af3412,Redmi Y2",
-                    "97582d,994f2d,b14514,b63d10,a05a29,Redmi Y2",
-                    "6e7a52,847235,a97005,c77400,d77400,XT1072",
-                    "afad7c,cdb068,df9b2e,e28404,f18d00,SM-G550FY",
-                    "b0b163,b79a34,de9c07,e18500,e47d00,SM-G600FY",
-                    "645839,b38360,f2723c,af3208,fc450b,ASUS_Z007",
-                    "9c9e55,b99023,dda51a,c5921c,ca8e0d,SM-G600FY",
-                    "998b69,9b6040,8b4827,904d2c,b16b47,ASUS_Z007",
-                    "6b5a4b,854526,993e19,a62f07,c63d0e,ASUS_Z007",
-                    "685645,7c472b,a63e16,ae3308,c13305,ASUS_Z007",
-                    "836f46,aa6039,bc5326,c54213,ed5018,ASUS_Z007"
-                ]
+                "name": "Iron",
+                "unit": "mg/l"
             }]
         },
         {
@@ -450,7 +432,7 @@
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": "0,0.1,0.2,0.3,0.4",
+            "ranges": "0, 0.05, 0.1, 0.2",
             "monthsValid": 6,
             "dilutions": [
                 1,
@@ -591,7 +573,7 @@
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": "0,1,2,3,4",
+            "ranges": "0, 0.05, 0.1, 0.2",
             "monthsValid": 6,
             "dilutions": [
                 1,
