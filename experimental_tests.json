@@ -1,6 +1,102 @@
 {
     "tests": [
         {
+            "name": "New Soil pH",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "a3e0e480-858a-455a-bfa4-2636348f3ef2",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": " 5,6,7,8,9",
+            "monthsValid": 6,
+            "results": [
+                {
+                    "id": 1,
+                    "name": "pH",
+                    "timeDelay": 30
+                }
+            ]
+        },
+        {
+            "name": "New Soil Available Nitrogen",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "09dd29db-7330-4c10-bdbc-e278e073a51a",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0, 10, 20, 40, 60",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5,
+                -1
+            ],
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Available Nitrogen",
+                    "unit": "mg/kg",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 5)"
+                }
+            ]
+        },
+        {
+            "name": "New Soil Available Phosphorous",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "d8fdd8cb-de6a-46ee-9ff6-f046e0f2afa0",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0, 2.5, 5, 7.5, 10",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5,
+                -1
+            ],
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Available Phosphorous",
+                    "unit": "mg/kg",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 5)"
+                }
+            ]
+        },
+        {
+            "name": "New Soil Available Potassium",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "fc4e4e96-4f49-48a3-85fd-d0a2c7975654",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0, 10, 20, 30, 40",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5,
+                -1
+            ],
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Available Potassium",
+                    "unit": "mg/kg",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 5)"
+                }
+            ]
+        },
+        {
             "name": "Fluoride (Above)",
             "type": "water",
             "subtype": "cuvette",
@@ -11,13 +107,15 @@
             "ranges": "0,0.5,1,1.5,2",
             "monthsValid": 12,
             "cameraAbove": true,
-            "results": [{
-                "id": 1,
-                "name": "Fluoride",
-                "unit": "mg/l"
-            }]
-       },
-       {
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Fluoride",
+                    "unit": "mg/l"
+                }
+            ]
+        },
+        {
             "name": "RGB Data",
             "type": "water",
             "subtype": "cuvette",
@@ -27,11 +125,13 @@
             "ranges": "1,2,3",
             "hasImage": true,
             "instructions": [],
-            "results": [{
-                "id": 1,
-                "name": "RGB",
-                "unit": "mg/l"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "RGB",
+                    "unit": "mg/l"
+                }
+            ]
         },
         {
             "name": "Free Chlorine (One Step)",
@@ -43,18 +143,20 @@
             "calibrate": true,
             "ranges": "0,0.5,1,1.5,2,2.5,3",
             "monthsValid": 24,
-            "results": [{
-                "id": 1,
-                "name": "Free Chlorine",
-                "unit": "mg/l",
-                "references": [
-                    "5d5b56,7f2c39,8f0016,93001e,a50027,a20c18,961527,20181119_MSF_ME4+",
-                    "6f772c,ab5a57,b5454b,b13e43,be3d41,b42924,ae373b,20181119_MSF_K9",
-                    "828b4e,ba4b61,b8234b,af1d3f,cf2551,b21025,b61a3e,20181119_MSF_AL3",
-                    "af9f6b,e16589,f15290,f358a0,f34e99,f1458a,f14b90,20181119_MSF_MGP",
-                    "665a4c,982a45,c12042,cf2144,d52041,e61c30,c71a38,20181119_MSF_AZC"
-                ]
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Free Chlorine",
+                    "unit": "mg/l",
+                    "references": [
+                        "5d5b56,7f2c39,8f0016,93001e,a50027,a20c18,961527,20181119_MSF_ME4+",
+                        "6f772c,ab5a57,b5454b,b13e43,be3d41,b42924,ae373b,20181119_MSF_K9",
+                        "828b4e,ba4b61,b8234b,af1d3f,cf2551,b21025,b61a3e,20181119_MSF_AL3",
+                        "af9f6b,e16589,f15290,f358a0,f34e99,f1458a,f14b90,20181119_MSF_MGP",
+                        "665a4c,982a45,c12042,cf2144,d52041,e61c30,c71a38,20181119_MSF_AZC"
+                    ]
+                }
+            ]
         },
         {
             "name": "Flouride (One Step)",
@@ -71,33 +173,34 @@
                 2,
                 5
             ],
-            "results": [{
-                "id": 1,
-                "name": "Flouride (One Step)",
-                "unit": "mg/l",
-                "references": [
-                    "712f05,91380e,7d1f17,85112b,760a36,Redmi Y2",
-                    "d32400,c61300,d60024,d70043,dc006c,Neo Power",
-                    "a8650a,a4560e,8d3b23,b6383f,b9305a,K9 Smart Eco",
-                    "ff3064,ff3f47,fd5224,f05f0c,e35c00,Moto G (4)",
-                    "560018,4e0109,460500,561400,4e2000,XT1706",
-                    "f144b3,e93d74,e74e36,e1600c,d86600,Moto G Play",
-                    "f731ad,f03979,f66856,f07f3d,ee9132,SM-G550FY",
-                    "ce0c69,cf1b4c,cc3030,cb481c,c14e10,ONEPLUS A6010",
-                    "620a43,620f30,5c151d,5d2118,5b2b16,Lenovo K8 Plus",
-                    "d819a7,e83f92,fc5d5e,fa7c2c,e37a00,Moto G (5S)",
-                    "b60f57,a31b33,ad2c23,972f1e,7b3800,Moto E (4) Plus",
-                    "fc549a,f4545c,ea6225,e87e0f,e28800,SM-G600FY",
-                    "e91b86,eb295d,f35e48,ef7b31,e38223,SM-G550FY",
-                    "e7339a,db3c67,cf5236,ca6716,bd6f06,XT1072",
-                    "ea1c69,ff2a5b,fd302e,ff451b,c73d13,ASUS_Z007",
-                    "f02071,f02747,ed332a,d03d14,bf461b,ASUS_Z007",
-                    "cd196f,d22558,cb2e31,ba3218,ec6133,ASUS_Z007",
-                    "cd196f,d22558,cb2e31,ba3218,ec6133,ASUS_Z007"
-                ]
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Flouride (One Step)",
+                    "unit": "mg/l",
+                    "references": [
+                        "712f05,91380e,7d1f17,85112b,760a36,Redmi Y2",
+                        "d32400,c61300,d60024,d70043,dc006c,Neo Power",
+                        "a8650a,a4560e,8d3b23,b6383f,b9305a,K9 Smart Eco",
+                        "ff3064,ff3f47,fd5224,f05f0c,e35c00,Moto G (4)",
+                        "560018,4e0109,460500,561400,4e2000,XT1706",
+                        "f144b3,e93d74,e74e36,e1600c,d86600,Moto G Play",
+                        "f731ad,f03979,f66856,f07f3d,ee9132,SM-G550FY",
+                        "ce0c69,cf1b4c,cc3030,cb481c,c14e10,ONEPLUS A6010",
+                        "620a43,620f30,5c151d,5d2118,5b2b16,Lenovo K8 Plus",
+                        "d819a7,e83f92,fc5d5e,fa7c2c,e37a00,Moto G (5S)",
+                        "b60f57,a31b33,ad2c23,972f1e,7b3800,Moto E (4) Plus",
+                        "fc549a,f4545c,ea6225,e87e0f,e28800,SM-G600FY",
+                        "e91b86,eb295d,f35e48,ef7b31,e38223,SM-G550FY",
+                        "e7339a,db3c67,cf5236,ca6716,bd6f06,XT1072",
+                        "ea1c69,ff2a5b,fd302e,ff451b,c73d13,ASUS_Z007",
+                        "f02071,f02747,ed332a,d03d14,bf461b,ASUS_Z007",
+                        "cd196f,d22558,cb2e31,ba3218,ec6133,ASUS_Z007",
+                        "cd196f,d22558,cb2e31,ba3218,ec6133,ASUS_Z007"
+                    ]
+                }
+            ]
         },
-
         {
             "name": "Phosphate (One Step)",
             "type": "water",
@@ -113,23 +216,23 @@
                 2,
                 5
             ],
-            "results": [{
-                "id": 1,
-                "name": "Phosphate (One Step)",
-                "unit": "mg/l",
-                "references": [
-                    "6a7847,4b7861,2a7a77,147b86,0186a0,0079a1,0072ae,XT1072",
-                    "a1a46e,a4c3a7,7bc2af,59c1c0,3dc5d2,0abadb,00bbf2,SM-G550FY",
-                    "9da552,7ba567,5baf8d,39b1a5,13b1b4,0094a5,00a1c6,SM-G600FY",
-                    "5c5732,78a08b,2cb5b7,04b5d2,006aa2,00a5ff,0087ff,ASUS_Z007",
-                    "73614f,57635a,21585d,03698d,00628b,006bab,0058ac,ASUS_Z007",
-                    "685745,4b554d,296265,0a6688,036588,00629c,005cb0,ASUS_Z007",
-                    "7d6d41,567e5f,438173,018993,007485,007a98,0071bc,ASUS_Z007"
-
-                ]
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Phosphate (One Step)",
+                    "unit": "mg/l",
+                    "references": [
+                        "6a7847,4b7861,2a7a77,147b86,0186a0,0079a1,0072ae,XT1072",
+                        "a1a46e,a4c3a7,7bc2af,59c1c0,3dc5d2,0abadb,00bbf2,SM-G550FY",
+                        "9da552,7ba567,5baf8d,39b1a5,13b1b4,0094a5,00a1c6,SM-G600FY",
+                        "5c5732,78a08b,2cb5b7,04b5d2,006aa2,00a5ff,0087ff,ASUS_Z007",
+                        "73614f,57635a,21585d,03698d,00628b,006bab,0058ac,ASUS_Z007",
+                        "685745,4b554d,296265,0a6688,036588,00629c,005cb0,ASUS_Z007",
+                        "7d6d41,567e5f,438173,018993,007485,007a98,0071bc,ASUS_Z007"
+                    ]
+                }
+            ]
         },
-
         {
             "name": "Iron",
             "type": "water",
@@ -145,11 +248,13 @@
                 2,
                 5
             ],
-            "results": [{
-                "id": 1,
-                "name": "Iron",
-                "unit": "mg/l"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Iron",
+                    "unit": "mg/l"
+                }
+            ]
         },
         {
             "name": "Dissolved Oxygen (Low range)",
@@ -163,11 +268,13 @@
             "ranges": "0,6",
             "monthsValid": 12,
             "hasImage": true,
-            "results": [{
-                "id": 1,
-                "name": "Dissolved Oxygen",
-                "unit": "mg/l"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Dissolved Oxygen",
+                    "unit": "mg/l"
+                }
+            ]
         },
         {
             "name": "FLuoride High Range",
@@ -181,12 +288,14 @@
             "ranges": "0,1,2,4,6",
             "monthsValid": 12,
             "hasImage": true,
-            "results": [{
-                "id": 1,
-                "name": "Fluoride High Range",
-                "unit": "mg/l",
-                "timeDelay": 0
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Fluoride High Range",
+                    "unit": "mg/l",
+                    "timeDelay": 0
+                }
+            ]
         },
         {
             "name": "Blood Sugar",
@@ -200,12 +309,14 @@
             "ranges": "0,50,100,200,300,400,500,600",
             "monthsValid": 12,
             "hasImage": true,
-            "results": [{
-                "id": 1,
-                "name": "Blood Sugar",
-                "unit": "mg/dl",
-                "timeDelay": 0
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Blood Sugar",
+                    "unit": "mg/dl",
+                    "timeDelay": 0
+                }
+            ]
         },
         {
             "name": "Chlorophyll A",
@@ -217,61 +328,63 @@
             "calibrate": true,
             "ranges": "0.10,0.20,0.50,1,2,3,4,5",
             "monthsValid": 6,
-            "results": [{
-                "id": 1,
-                "name": "Chlorophyll A",
-                "unit": "mg/l",
-                "timeDelay": 30
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Chlorophyll A",
+                    "unit": "mg/l",
+                    "timeDelay": 30
+                }
+            ]
         },
-         {
-      "name": "Arsenic",
-      "type": "water",
-      "subtype": "cuvette",
-      "uuid": "93c259c5-f8b5-4317-828b-adfa324a2918",
-      "image": "ffem",
-      "imageScale": "centerCrop",
-      "calibrate": true,
-      "ranges": "0,0.05,0.1,0.3,0.5",
-      "monthsValid": 2,
-      "dilutions": [
-        1,
-        2,
-        5
-      ],
-      "results": [
         {
-          "id": 1,
-          "name": "Arsenic (III)",
-          "unit": "mg/l",
-          "timeDelay": 600
-        }
-      ]
-    },
-         {
-      "name": "Arsenic 2.0",
-      "type": "water",
-      "subtype": "cuvette",
-      "uuid": "8f0459f4-32f4-489b-a5a1-85a51ec8fc4a",
-      "image": "ffem",
-      "imageScale": "centerCrop",
-      "calibrate": true,
-      "ranges": "0,10,30,50,100,200,500",
-      "monthsValid": 6,
-      "dilutions": [
-        1,
-        2,
-        5
-      ],
-      "results": [
+            "name": "Arsenic",
+            "type": "water",
+            "subtype": "cuvette",
+            "uuid": "93c259c5-f8b5-4317-828b-adfa324a2918",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,0.05,0.1,0.3,0.5",
+            "monthsValid": 2,
+            "dilutions": [
+                1,
+                2,
+                5
+            ],
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Arsenic (III)",
+                    "unit": "mg/l",
+                    "timeDelay": 600
+                }
+            ]
+        },
         {
-          "id": 1,
-          "name": "Arsenic 2.0",
-          "unit": "ppb",
-          "timeDelay": 600
-        }
-      ]
-    },
+            "name": "Arsenic 2.0",
+            "type": "water",
+            "subtype": "cuvette",
+            "uuid": "8f0459f4-32f4-489b-a5a1-85a51ec8fc4a",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0,10,30,50,100,200,500",
+            "monthsValid": 6,
+            "dilutions": [
+                1,
+                2,
+                5
+            ],
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Arsenic 2.0",
+                    "unit": "ppb",
+                    "timeDelay": 600
+                }
+            ]
+        },
         {
             "name": "Organophosphate",
             "type": "water",
@@ -282,12 +395,14 @@
             "calibrate": true,
             "ranges": "0,0.01,0.025,0.050,0.1",
             "monthsValid": 6,
-            "results": [{
-                "id": 1,
-                "name": "Organophosphate",
-                "unit": "mg/l",
-                "timeDelay": 30
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Organophosphate",
+                    "unit": "mg/l",
+                    "timeDelay": 30
+                }
+            ]
         },
         {
             "name": "Zinc",
@@ -299,12 +414,14 @@
             "calibrate": true,
             "ranges": "0,1,2,3,4,5,6,7,8",
             "monthsValid": 6,
-            "results": [{
-                "id": 1,
-                "name": "Zinc",
-                "unit": "mg/l",
-                "timeDelay": 180
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Zinc",
+                    "unit": "mg/l",
+                    "timeDelay": 180
+                }
+            ]
         },
         {
             "name": "Available Nitrogen",
@@ -319,15 +436,18 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "Available Nitrogen",
-                "unit": "mg/kg",
-                "timeDelay": 300,
-                "formula": "(%1$f * 5)"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Available Nitrogen",
+                    "unit": "mg/kg",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 5)"
+                }
+            ]
         },
         {
             "name": "Demo Nitrogen",
@@ -342,15 +462,18 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "Demo Nitrogen",
-                "unit": "mg/kg",
-                "timeDelay": 300,
-                "formula": "(%1$f * 1)"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Demo Nitrogen",
+                    "unit": "mg/kg",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 1)"
+                }
+            ]
         },
         {
             "name": "GIZ Potassium",
@@ -365,41 +488,44 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "GIZ Potassium",
-                "unit": "mg/l",
-                "timeDelay": 300,
-                "formula": "(%1$f * 5)",
-                "grayScale": false
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "GIZ Potassium",
+                    "unit": "mg/l",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 5)",
+                    "grayScale": false
+                }
+            ]
         },
         {
-      "name": "Copper",
-      "type": "soil",
-      "subtype": "cuvette",
-      "uuid": "4ae79049-8b6a-4230-b2b9-b3882ddfb68c",
-      "image": "ffem",
-      "calibrate": true,
-      "ranges": " 0,0.2,0.4,0.6,0.8,1.0",
-      "monthsValid": 12,
-      "dilutions": [
-        1,
-        2,
-        5
-      ],
-      "results": [
-        {
-          "id": 1,
-          "name": "Copper",
-          "unit": "mg/kg",
-          "formula": "(%1$f * 5)",
-          "timeDelay": 300
-        }
-      ]
-    },
+            "name": "Copper",
+            "type": "soil",
+            "subtype": "cuvette",
+            "uuid": "4ae79049-8b6a-4230-b2b9-b3882ddfb68c",
+            "image": "ffem",
+            "calibrate": true,
+            "ranges": " 0,0.2,0.4,0.6,0.8,1.0",
+            "monthsValid": 12,
+            "dilutions": [
+                1,
+                2,
+                5
+            ],
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Copper",
+                    "unit": "mg/kg",
+                    "formula": "(%1$f * 5)",
+                    "timeDelay": 300
+                }
+            ]
+        },
         {
             "name": "Potassium 2.0",
             "type": "water",
@@ -413,16 +539,19 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "Potassium 2.0",
-                "unit": "mg/l",
-                "timeDelay": 300,
-                "formula": "(%1$f * 1)",
-                "grayScale": false
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Potassium 2.0",
+                    "unit": "mg/l",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 1)",
+                    "grayScale": false
+                }
+            ]
         },
         {
             "name": "Nitrite",
@@ -437,16 +566,19 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "Nitrite",
-                "unit": "mg/l",
-                "timeDelay": 600,
-                "formula": "(%1$f * 1)",
-                "grayScale": false
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Nitrite",
+                    "unit": "mg/l",
+                    "timeDelay": 600,
+                    "formula": "(%1$f * 1)",
+                    "grayScale": false
+                }
+            ]
         },
         {
             "name": "U5 Potassium",
@@ -461,16 +593,19 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "U5 Potassium",
-                "unit": "mg/l",
-                "timeDelay": 300,
-                "formula": "(%1$f * 1)",
-                "grayScale": false
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "U5 Potassium",
+                    "unit": "mg/l",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 1)",
+                    "grayScale": false
+                }
+            ]
         },
         {
             "name": "U5 Nitrogen",
@@ -485,17 +620,21 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "U5 Nitrogen",
-                "unit": "mg/l",
-                "timeDelay": 300,
-                "formula": "(%1$f * 5)",
-                "grayScale": false
-            }]
-        },{
+            "results": [
+                {
+                    "id": 1,
+                    "name": "U5 Nitrogen",
+                    "unit": "mg/l",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 5)",
+                    "grayScale": false
+                }
+            ]
+        },
+        {
             "name": "U5 Phosphorus",
             "type": "soil",
             "subtype": "cuvette",
@@ -508,16 +647,19 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "U5 Phosphorus",
-                "unit": "mg/l",
-                "timeDelay": 300,
-                "formula": "(%1$f * 1)",
-                "grayScale": false
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "U5 Phosphorus",
+                    "unit": "mg/l",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 1)",
+                    "grayScale": false
+                }
+            ]
         },
         {
             "name": "Demo Potassium",
@@ -532,15 +674,18 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "Demo Potassium",
-                "unit": "mg/l",
-                "timeDelay": 300,
-                "formula": "(%1$f * 1)"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Demo Potassium",
+                    "unit": "mg/l",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 1)"
+                }
+            ]
         },
         {
             "name": "Alkalinity (Colorimetric)",
@@ -555,15 +700,18 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "Alkalinity (Colorimetric)",
-                "unit": "mg/l",
-                "timeDelay": 120,
-                "formula": "(%1$f * 1)"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Alkalinity (Colorimetric)",
+                    "unit": "mg/l",
+                    "timeDelay": 120,
+                    "formula": "(%1$f * 1)"
+                }
+            ]
         },
         {
             "name": "Ammonia",
@@ -578,15 +726,18 @@
             "dilutions": [
                 1,
                 2,
-                5, -1
+                5,
+                -1
             ],
-            "results": [{
-                "id": 1,
-                "name": "Ammonia",
-                "unit": "mg/l",
-                "timeDelay": 300,
-                "formula": "(%1$f * 1)"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Ammonia",
+                    "unit": "mg/l",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 1)"
+                }
+            ]
         },
         {
             "name": "Trial: Zinc",
@@ -603,13 +754,15 @@
                 2,
                 5
             ],
-            "results": [{
-                "id": 1,
-                "name": "Trial: Zinc",
-                "unit": "mg/kg",
-                "timeDelay": 300,
-                "formula": "(%1$f * 5)"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Trial: Zinc",
+                    "unit": "mg/kg",
+                    "timeDelay": 300,
+                    "formula": "(%1$f * 5)"
+                }
+            ]
         },
         {
             "name": "Organic Carbon",
@@ -621,12 +774,14 @@
             "calibrate": true,
             "ranges": "0,0.25,0.5,0.75,1.0",
             "monthsValid": 6,
-            "results": [{
-                "id": 1,
-                "name": "Organic Carbon",
-                "unit": "%",
-                "formula": "(%1$f / 2.5)"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Organic Carbon",
+                    "unit": "%",
+                    "formula": "(%1$f / 2.5)"
+                }
+            ]
         },
         {
             "name": "Manganese",
@@ -638,11 +793,13 @@
             "calibrate": true,
             "ranges": "0,0.5,1.0,1.5,2.0",
             "monthsValid": 6,
-            "results": [{
-                "id": 1,
-                "name": "Manganese",
-                "unit": "mg/l"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Manganese",
+                    "unit": "mg/l"
+                }
+            ]
         },
         {
             "name": "Experimental Organic Carbon",
@@ -654,11 +811,13 @@
             "calibrate": true,
             "ranges": "0.0, 0.5, 1.0, 1.5, 2.0",
             "monthsValid": 6,
-            "results": [{
-                "id": 1,
-                "name": "Exp. Organic Carbon",
-                "unit": "%"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Exp. Organic Carbon",
+                    "unit": "%"
+                }
+            ]
         },
         {
             "name": "Available Sulphur",
@@ -671,12 +830,14 @@
             "monthsValid": 12,
             "hasImage": true,
             "instructions": [],
-            "results": [{
-                "id": 1,
-                "name": "Available Sulphur",
-                "unit": "mg/l",
-                "formula": "(%1$f * 5)"
-            }]
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Available Sulphur",
+                    "unit": "mg/l",
+                    "formula": "(%1$f * 5)"
+                }
+            ]
         }
     ]
 }
