@@ -1,6 +1,25 @@
 {
     "tests": [
         {
+            "name": "Nitrite (High Range)",
+            "type": "water",
+            "subtype": "cuvette",
+            "uuid": "32aca12b-9831-4a70-b606-3afcb19e8d28",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": "0, 0.25, 0.5, 1, 2, 5",
+            "monthsValid": 6,
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Nitrite",
+                    "unit": "mg/l",
+                    "timeDelay": 300
+                }
+            ]
+        },
+        {
             "name": "New Soil pH",
             "type": "soil",
             "subtype": "cuvette",
