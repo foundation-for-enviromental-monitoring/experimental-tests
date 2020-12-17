@@ -8,7 +8,7 @@
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": " 0, 0.25,0.5, 0.75, 1, 2",
+            "ranges": "0, 0.25,0.5, 0.75, 1, 2",
             "monthsValid": 6,
             "results": [
                 {
@@ -46,7 +46,7 @@
             "image": "ffem",
             "imageScale": "centerCrop",
             "calibrate": true,
-            "ranges": " 5,6,7,8,9",
+            "ranges": "5,6,7,8,9",
             "monthsValid": 6,
             "results": [
                 {
@@ -547,7 +547,7 @@
             "uuid": "4ae79049-8b6a-4230-b2b9-b3882ddfb68c",
             "image": "ffem",
             "calibrate": true,
-            "ranges": " 0,0.2,0.4,0.6,0.8,1.0",
+            "ranges": "0,0.2,0.4,0.6,0.8,1.0",
             "monthsValid": 12,
             "dilutions": [
                 1,
