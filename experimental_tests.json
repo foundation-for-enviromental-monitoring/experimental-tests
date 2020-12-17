@@ -1,6 +1,25 @@
 {
     "tests": [
         {
+            "name": "Ammonia",
+            "type": "water",
+            "subtype": "cuvette",
+            "uuid": "f47cb441-0f85-4f67-b229-1d7df5bf7eb2",
+            "image": "ffem",
+            "imageScale": "centerCrop",
+            "calibrate": true,
+            "ranges": " 0, 0.25,0.5, 0.75, 1, 2",
+            "monthsValid": 6,
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Ammonia",
+                    "unit": "mg/l",
+                    "timeDelay": 300
+                }
+            ]
+        },
+        {
             "name": "Nitrite (High Range)",
             "type": "water",
             "subtype": "cuvette",
